@@ -1,0 +1,1017 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+/* nav-bar */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.search-bar {
+    width: 45%;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#search {
+    width: 95%;
+    padding: 8px;
+    border: none;
+    background-color: aliceblue;
+
+}
+
+#search:focus {
+    border: none;
+    border-color: none;
+}
+
+.dropdown {
+
+    margin-left: 30px;
+}
+
+.btn {
+    background-color: white !important;
+    color: black !important;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(13, 13, 251) !important;
+    color: white !important;
+}
+
+.sign-up {
+    margin-left: 50px;
+}
+
+.log-btn {
+    margin-left: 10px;
+}
+
+.log-btn1 {
+    margin-left: 10px;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(194, 194, 218) !important;
+
+}
+
+.cart {
+
+    margin-left: 30px;
+}
+
+.seller {
+    margin-left: 30px;
+}
+
+.help-link {
+    margin-left: 10px;
+
+}
+
+
+
+/* Collection-section */
+
+.collection {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    background-color: white;
+}
+
+.collection-1 {
+
+    text-align: center;
+
+}
+
+.collect-img {
+    width: 65px;
+}
+
+.list {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+/* Carousel */
+
+.carousel {
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+}
+
+.d-block {
+    height: 350px;
+}
+
+.carousel-control-prev {
+
+    width: 40px !important;
+    height: 80px !important;
+    margin-top: 130px;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(149, 135, 135);
+    opacity: 1 !important;
+    color: black !important;
+    font-size: 10px !important;
+}
+
+.carousel-control-prev:hover {
+    color: rgb(122, 28, 28) !important;
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    color: rgb(87, 52, 52) !important;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-control-next {
+    width: 40px !important;
+    height: 80px !important;
+    margin-top: 130px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(149, 135, 135);
+    opacity: 1 !important;
+    color: black !important;
+    font-size: 10px !important;
+}
+
+.carousel-control-next:hover {
+    color: rgb(122, 28, 28) !important;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    color: rgb(87, 52, 52) !important;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-indicators {
+    width: 90px;
+    height: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgb(61, 53, 53);
+    opacity: 0.7;
+}
+
+.small-icon {
+    width: 8px !important;
+    height: 8px !important;
+    margin-top: -6px;
+    border-radius: 50%;
+    background-color: white !important;
+}
+
+
+
+/* bank offer- section-2 */
+
+.section-2 {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bank-offer {
+    height: 110px;
+    width: 800px;
+}
+
+
+/* mobile section- section-3 */
+
+.section-3 {
+    display: flex;
+}
+
+.mobile-section {
+    width: 82%;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.mobile-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    position: relative;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(12, 12, 235, 0.942);
+
+}
+
+.fa-greater-than {
+
+    margin-left: 8px;
+    color: white;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box-row {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 250px;
+    gap: 10px;
+    overflow-x: scroll;
+
+}
+
+.box {
+    border: 1px solid rgb(185, 172, 172);
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.box-1 {
+    margin-left: 20px;
+}
+
+.photos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mobile-img {
+    width: 150px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mobile-img:hover {
+    width: 155px;
+    height: 155px;
+
+}
+
+.section-3-right {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+/* section-4 images */
+
+.section-4 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.section-4-img {
+    width: 32%;
+    height: 200px;
+    margin-left: 5px;
+}
+
+
+
+/* top deals */
+
+.box-row1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 250px;
+    gap: 10px;
+    overflow-x: scroll;
+
+}
+
+.top-deal-section {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.deal-icon {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(33, 33, 196);
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+}
+
+/* collection section */
+
+.section-6 {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.section-6-logo-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-6-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.end-season {
+    width: 500px;
+    background-color: white;
+}
+
+.gift-box-row {
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.gift-box {
+    border: 1px solid rgb(183, 181, 181);
+    border-radius: 5px;
+}
+
+.gift-photo {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.offer-image {
+    width: 500px;
+    height: 600px;
+}
+
+.gift-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(33, 33, 245);
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+
+/* footer - section */
+
+.footer {
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 20px;
+
+}
+
+.footer-top {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.item {
+    width: 200px;
+    height: 250px;
+
+}
+
+.heading {
+    color: rgb(146, 135, 135);
+    margin-left: 32px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.mail {
+    border-left: 1px solid white;
+    height: 200px;
+}
+
+.footer-bottom {
+    border-top: 1px solid white;
+}
+
+.footer-list {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .nav {
+        height: 120px;
+    }
+
+    .flipkart-logo {
+        position: relative;
+        top: -5px;
+        right: 120px;
+
+    }
+
+    .search-bar {
+        position: absolute;
+        top: 65px;
+        left: -30px;
+        width: 86%;
+
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        top: 10px;
+    }
+
+    #search {
+        position: absolute;
+        border-radius: 5px;
+
+    }
+
+    .seller,
+    .help-link,
+    .log-btn1 {
+        display: none;
+    }
+
+    .btn {
+        position: relative;
+        bottom: 55px;
+        left: 60px;
+    }
+
+    .fa-cart-shopping {
+        position: relative;
+        bottom: 55px;
+        left: 35px;
+    }
+
+    .collection {
+        overflow-x: scroll;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .carousel {
+        height: 200px;
+    }
+
+    .d-block {
+        height: 200px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .bank-offer {
+        height: 26px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .section-3-right {
+        display: none;
+    }
+
+    .section-4 {
+        display: none;
+    }
+
+    .section-6 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .gift-box-row {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+
+    }
+
+    .gift-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .end-season {
+        width: 315px;
+        margin-left: 5px;
+    }
+
+    .offer-image {
+        width: 310px;
+        height: 500px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width:321px) and (max-width:376px) {
+    .nav {
+        height: 120px;
+    }
+
+    .flipkart-logo {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+
+
+    }
+
+    .search-bar {
+        position: absolute;
+        top: 65px;
+        left: -30px;
+        width: 86%;
+
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        top: 10px;
+    }
+
+    #search {
+        position: absolute;
+        border-radius: 5px;
+
+    }
+
+    .seller,
+    .help-link,
+    .log-btn1 {
+        display: none;
+    }
+
+    .btn {
+        position: relative;
+        left: 30px;
+        bottom: 30px;
+
+    }
+
+    .fa-cart-shopping {
+        position: relative;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .collection {
+        overflow-x: scroll;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .bank-offer {
+        height: 30px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .section-3-right {
+        display: none;
+    }
+
+    .section-4 {
+        display: none;
+    }
+
+    .section-6 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .gift-box-row {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+
+    }
+
+    .gift-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .end-season {
+        width: 340px;
+        margin-left: 5px;
+    }
+
+    .offer-image {
+        width: 340px;
+        height: 500px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+
+    .nav {
+        height: 120px;
+    }
+
+    .flipkart-logo {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+
+
+    }
+
+    .search-bar {
+        position: absolute;
+        top: 65px;
+        left: -30px;
+        width: 86%;
+
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        top: 10px;
+    }
+
+    #search {
+        position: absolute;
+        border-radius: 5px;
+
+    }
+
+    .btn {
+        position: relative;
+        left: 30px;
+        bottom: 30px;
+
+    }
+
+    .fa-cart-shopping {
+        position: relative;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .seller,
+    .log-btn1 {
+        display: none;
+    }
+
+    .collection {
+        overflow-x: scroll;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .bank-offer {
+        height: 30px;
+    }
+
+    .mobile-section {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .section-3-right {
+        display: none;
+    }
+
+    .section-4 {
+        display: none;
+    }
+
+    .section-6 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .gift-box-row {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+
+    }
+
+    .gift-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .end-season {
+        width: 400px;
+        margin-left: 5px;
+    }
+
+    .offer-image {
+        width: 400px;
+        height: 500px;
+    }
+
+
+    .footer {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:769px) {
+
+    .nav {
+        height: 65px;
+    }
+
+    .flipkart-logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .search-bar {
+        position: absolute;
+        left: 130px;
+        width: 35%;
+
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        top: 10px;
+    }
+
+    #search {
+        position: absolute;
+        border-radius: 5px;
+    }
+
+    .btn {
+        position: relative;
+        left: 180px;
+    }
+
+    .fa-cart-shopping {
+        position: relative;
+        left: 170px;
+    }
+
+    .seller {
+        position: relative;
+        left: 180px;
+    }
+
+    .help-link {
+        position: relative;
+        right: 10px;
+    }
+
+    .log-btn1 {
+        display: none;
+    }
+
+    .bank-offer {
+        width: 100%;
+    }
+
+    .mobile-section {
+        width: 70%;
+
+    }
+
+    .section-3-right img {
+        width: 220px;
+    }
+
+    .section-6 {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .gift-box-row {
+        display: grid;
+        grid-template-columns: 170px 180px;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+
+    }
+
+    .gift-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .end-season {
+        margin-left: 5px;
+    }
+
+    .fashion-photo {
+        display: none;
+    }
+
+    .footer-top {
+        display: flex;
+        gap: 0;
+        margin: 0;
+    }
+
+    .item {
+        width: 200px;
+        height: 250px;
+        position: relative;
+        left: -10px;
+
+    }
+
+    .mail {
+        position: relative;
+        left: -20px;
+    }
+
+    .office {
+        position: relative;
+        left: -10px;
+    }
+
+}
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+
+    .nav {
+        height: 65px;
+    }
+
+    .flipkart-logo {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .search-bar {
+        position: absolute;
+        left: 160px;
+        width: 45%;
+
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        top: 10px;
+    }
+
+    #search {
+        position: absolute;
+        border-radius: 5px;
+    }
+
+    .btn {
+        position: relative;
+        left: 270px;
+    }
+
+    .fa-cart-shopping {
+        position: relative;
+        left: 260px;
+    }
+
+    .seller {
+        position: relative;
+        left: 280px;
+    }
+
+    .help-link {
+        position: relative;
+        right: 0px;
+    }
+
+    .log-btn1 {
+        display: none;
+    }
+
+    .mobile-section {
+        width: 77%;
+
+    }
+
+    .section-3-right img {
+        width: 220px;
+    }
+
+    .fashion-photo {
+        display: none;
+    }
+}
